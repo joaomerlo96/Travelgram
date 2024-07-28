@@ -19,27 +19,29 @@
   --text-sm: 12px/175% var(--font-family);
 }
 
-/* Explorar */
-
-width: 64px;
-height: 24px;
-
-
-line-height: 150%;
-/* identical to box height, or 24px */
-display: flex;
-align-items: center;
-
-color: #6C6C6C;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
 
 body{
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+a:hover{
+color: var(--brand-color);
+text-decoration: underline;
+}
+
+.container{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color{
+  background-color: var(--surface-color);
 }
