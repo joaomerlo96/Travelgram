@@ -11,9 +11,7 @@ header .container{
 
 #profile{
   display: flex;
-  
   gap:32px;
-
 }
 
 #profile > div{
